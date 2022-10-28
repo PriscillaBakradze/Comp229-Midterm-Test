@@ -1,9 +1,13 @@
 {
-  "name": "comp229-f2020-midterm",
+  "name": "comp229-midterm",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": "^10.15.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
@@ -24,11 +28,7 @@
     "passport-local-mongoose": "^5.0.1",
     "popper.js": "^1.16.1"
   },
-  "engines": {
-    "node": "^10.15.0",
-    "npm": "^6.0.0"
-  },
-  "description": "## Welcome to the MidTerm Project - the Favourite Book List App",
+  "description": "## Welcome to the MidTerm Project",
   "main": "server.js",
   "devDependencies": {
     "@types/body-parser": "^1.19.0",
@@ -45,14 +45,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/PriscillaBakradze/Comp229-Midterm-Test.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Priscilla Bakradze",
   "license": "ISC",
-  "homepage": ""
+  "bugs": {
+    "url": "https://github.com/PriscillaBakradze/Comp229-Midterm-Test/issues"
+  },
+  "homepage": "https://github.com/PriscillaBakradze/Comp229-Midterm-Test#readme"
 }
